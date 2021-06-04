@@ -1,0 +1,115 @@
+/* jamie's CSS style sheet template */
+
+/* positioning */
+/* box-model */
+/* text */
+/* visual */
+
+body {
+    /* positioning */
+    position: relative;
+}
+.container {
+    /* positioning */    
+    /* box-model */   
+    border: 2px solid blue;
+    /* text */
+    /* visual */  
+}
+
+.navbar-brand {
+    /* positioning */
+    height: 40px;
+    width: 120px;
+    /* box-model */
+
+    margin: 10px 800px 10px 10px;
+    /* text */
+    text-align: center;
+    /* visual */
+    background-color: rgb(49, 190, 190);    
+}
+
+#navbar-span {
+    /* text */
+    color: white;
+    font-weight: bold;
+}
+
+.main-body-container {
+    /* positioning */
+    height: 800px;
+    width: 1220px;
+    /* box-model */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    padding: 10px 10px 10px 10px;
+    /* text */
+    /* visual */
+    align-self: center;
+}
+
+.left-container,
+.right-container {
+/* positioning */
+height: 750px;
+/* box-model */
+/* text */
+/* visual */   
+}
+
+.left-container {
+    /* positioning */
+    /* box-model */
+    /* text */
+    font-size: larger;
+    /* visual */     
+}
+
+.left-img {
+/* positioning */
+width: 550px;
+/* box-model */
+/* text */
+/* visual */
+float: left;    
+}
+
+.right-container {
+    /* positioning */
+    /* box-model */
+    margin: 10px;
+    padding: 10px;
+    /* text */
+    /* visual */    
+}
+
+.viz-card {
+/* positioning */
+/* box-model */
+margin: 40px 20px 40px 20px;
+width: 190px;
+/* text */
+text-align: center;
+/* visual */    
+}
+
+.viz-card:hover {
+    /* visual */
+    opacity: 0.70;
+}
+
+
+.viz-image {
+/* positioning */
+width: 180px;
+/* box-model */
+/* text */
+/* visual */    
+}
+
+footer {
+    /* text */
+    text-align: center;
+}
